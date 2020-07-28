@@ -1,0 +1,343 @@
+@import url('https://gazellegames.net/static/styles/game_room/style.css');
+
+/* Licensed under the Open Software License version 3.0 */
+
+#logo {
+	background: url('../images/logo3.png') no-repeat bottom center;
+	height:100px;
+	border-bottom: var(--mediumBlue) 1px solid;
+	margin-left:-50px;}
+
+#searchbars ul {
+	display: block;
+	height: 22px;
+	position: absolute;
+	right: 50%;
+	top: 90px;
+	width: auto;
+	margin-right: -540px;}
+
+#header {
+	height:177px;}
+
+:root {
+    --color1: hsl(239, 21%, 67%);
+    --color1-dark: hsl(237, 33%, 86%);
+    --color2: hsl(237, 33%, 86%);
+    --color2-light: hsl(237, 33%, 86%);
+    --color1-light: hsl(250, 70%, 60%);
+    --color1-bright: hsl(239, 77%, 77%);
+    --darkGreen:        #178c08;
+    --font: roboto;
+}
+
+* {
+    color: #333333;
+}
+
+body {
+    font-family: var(--font);
+}
+
+.box, table {
+    background: unset;
+}
+
+body {
+    background-image: unset;
+    background-color: hsl(239, 36%, 77%);
+}
+
+#menu {
+    background-color: hsl(0, 0%, 20%);
+    background-color: var(--color1);
+    box-shadow: unset;
+}
+
+#userinfo {
+    background-color: var(--color1-dark);
+    border-bottom: unset;
+    height: 35px;
+}
+
+#logo {
+    border-bottom: unset;
+}
+
+#content {
+    background: hsl(0, 0%, 95%) !important;
+    box-shadow: unset;
+}
+
+.box, .news_post {
+    background: var(--color1-dark);
+}
+
+.box {
+    padding-top: 0;
+}
+
+.colhead,
+.colhead_dark,
+.head {
+    box-shadow: unset;
+    background: var(--color1);
+    border-radius: unset;
+    padding-right: 18px;
+}
+
+.head > a {
+    color: #FFFFFF;
+}
+
+.head > a:hover {
+    color: #FFFFFF;
+}
+
+.colhead_dark {
+    padding-right: 11px;
+}
+
+#freeleech > .colhead_dark {
+    padding-right: 17px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: var(--color2);
+    box-shadow: none;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    box-shadow: none;
+    background-color: var(--color2-light);
+}
+
+
+#left_poll,
+#right_poll {
+    display: none;
+}
+
+#center_poll {
+    background: var(--color2);
+    border-radius: 20px;
+}
+
+span[style="color: red;"] {
+    color: var(--color2-light) !important;
+}
+
+a {
+    color: var(--color1-light);
+}
+
+a:hover {
+    color: var(--color1-bright);
+}
+
+
+
+tr.group,
+tr.group_torrent,
+tr.group_torrent > td,
+tr.rowa > td,
+tr.rowb > td,
+tr.group > td {
+    background-color: var(--color1-dark) !important;
+}
+
+tr.colhead {
+    background-color: var(--color1) !important;
+}
+
+
+.rowa,
+.rowb {
+    border-top: 5px dotted var(--color1);
+}
+
+tr:nth-child(2),
+tr:nth-child(2) > td {
+    border-top: unset !important;
+}
+
+
+#content > div.thin > div.center {
+    background: var(--color1-dark) !important;
+}
+
+input[type="text"],
+select,
+.search_form > input {
+    background-color: var(--color1) !important;
+}
+
+.box_description_div > .head {
+    margin: 0 !important;
+}
+
+.box.userreviews_div .head,
+.box.screenshots_div .head,
+.box.trailer_div .head,
+.similar_div .head,
+.box.pad .head,
+#vote_matches .head,
+.box.description_div .head {
+    margin-left: -10px !important;
+    padding-right: 25px;
+}
+
+textarea {
+    background-color: var(--color1);
+    margin-bottom: 10px;
+}
+
+#torrents .sidebar .box .head {
+    padding-right: 10px;
+}
+
+#menu {
+    text-shadow: unset;
+    font-weight: bold;
+}
+
+#menu ul a,
+#userinfo #userinfo_username .donateico a {
+    text-shadow: unset;
+}
+
+#userinfo #userinfo_username .donateico {
+    left: 1005px;
+}
+
+
+#menu ul a:hover,
+#userinfo #userinfo_username .donateico a:hover {
+    text-shadow: unset;
+    color: var(--color2-light) !important;
+}
+
+#requests .main_column {
+    background-color: var(--color1-dark);
+}
+
+#requests .main_column td.label {
+    background-color: var(--color1);
+}
+
+#requests .main_column tr {
+    border-bottom: 3px dotted var(--color1);
+}
+
+#requests .main_column td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#_3316780429,
+#_316904173,
+.wiki_index .wiki_article strong {
+    box-shadow: none;
+    background-color: var(--color1) !important;
+}
+
+#wiki.wiki_index h3:nth-of-type(1) {
+    padding-top: 10px;
+    color: var(--color1-light);
+}
+
+#wiki span.size4 {
+    color: var(--color1-light);
+}
+
+#wiki span.size4 > strong {
+    border-bottom-color: var(--color1-light);
+}
+
+.forum_post tr {
+    background-color: unset;
+}
+
+.forum_post .colhead_dark {
+    background-color: var(--color1);
+    border-bottom: 3px dotted var(--color1-light);
+}
+
+td.avatar {
+    box-shadow: unset;
+    background-color: var(--color1);
+}
+
+.avatar .forumstat {
+    background-color: var(--color1);
+}
+
+tr.likes {
+    border-top: 3px dotted var(--color1-light);
+}
+
+tr.likes td {
+    background-color: var(--color1);
+    padding: 10px;
+}
+
+blockquote,
+#server_stats,
+#toplink {
+    background-color: var(--color1);
+    filter: unset;
+    -webkit-filter: unset;
+}
+
+.profile .box_main_info {
+    background: var(--color1-dark);
+}
+
+#searchbars ul#torrentscomplete li,
+ul#userinfo_minor li,
+ul#userinfo_stats li,
+#userinfo_username .sub span,
+#torrents .groupoptions a {
+    background-color: var(--color1) !important;
+    border-bottom: 3px dotted var(--color1-light) !important;
+}
+
+#searchbars ul#torrentscomplete li:hover,
+ul#userinfo_minor li:hover,
+ul#userinfo_stats li:hover,
+#userinfo_username .sub span:hover,
+#torrents .groupoptions a:hover {
+    background-color: var(--color2) !important;
+    border-bottom: 3px dotted var(--color1-light) !important;
+}
+
+#collages > tbody {
+    background-color: var(--color1-dark);
+}
+
+.global_buffs {
+    filter: unset;
+    background-color: var(--color1-dark);
+}
+
+.global_buffs .color_green .fa {
+    color: var(--color1-light);
+    filter: unset;
+}
+
+.global_buffs .buff_text {
+    text-shadow: unset;
+}
+
+#staffpm .box {
+    padding-left: 10px;
+}
+
+#staffpm .head {
+    padding-right: 21px;
+}
+
+.noty_text {
+    color: black;
+}
