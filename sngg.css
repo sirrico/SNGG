@@ -2,23 +2,6 @@
 
 /* Licensed under the Open Software License version 3.0 */
 
-#logo {
-	height:100px;
-	border-bottom: var(--mediumBlue) 1px solid;
-	margin-left:-50px;}
-
-#searchbars ul {
-	display: block;
-	height: 22px;
-	position: absolute;
-	right: 50%;
-	top: 90px;
-	width: auto;
-	margin-right: -540px;}
-
-#header {
-	height:177px;}
-
 :root {
     --color1: hsl(239, 21%, 67%);
     --color1-dark: hsl(237, 33%, 86%);
